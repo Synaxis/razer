@@ -1,6 +1,7 @@
 Razer device configuration tool
 ===============================
 THIS IS A FORK FROM mbuesch/razer
+give them a Star https://github.com/mbuesch/razer
 
 [https://bues.ch/h/razercfg](https://bues.ch/h/razercfg)
 
