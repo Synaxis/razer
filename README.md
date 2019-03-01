@@ -19,6 +19,8 @@ Dependencies
 * PyQt5 (for the graphical qrazercfg tool only): [https://riverbankcomputing.com/software/pyqt/download5/](https://riverbankcomputing.com/software/pyqt/download5/)
 * cmake 2.4 or later (for building only): [https://cmake.org/](https://cmake.org/)  
 `apt-get install libusb-1.0-0-dev python3-pyqt5 cmake -y`
+clone it
+`git clone https://github.com/Synaxis/razer && cd razer`
 
 Note that almost all distributions ship prebuilt packages of the
 above dependencies.
