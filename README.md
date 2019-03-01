@@ -1,5 +1,6 @@
 Razer device configuration tool
 ===============================
+THIS IS A FORK FROM mbuesch/razer
 
 [https://bues.ch/h/razercfg](https://bues.ch/h/razercfg)
 
@@ -13,17 +14,11 @@ Device support table at [https://bues.ch/h/razercfg#device_support](https://bues
 Dependencies
 ------------
 
-* Python 3.x: [https://www.python.org/](https://www.python.org/)  
-  Debian Linux: `apt-get install python3`
-
+* Python 3: [https://www.python.org/](https://www.python.org/)  
 * libusb 1.0: [http://libusb.org/](http://libusb.org/)   
-Debian Linux: `apt-get install libusb-1.0-0-dev`
-
 * PyQt5 (for the graphical qrazercfg tool only): [https://riverbankcomputing.com/software/pyqt/download5/](https://riverbankcomputing.com/software/pyqt/download5/)
-Debian Linux: `apt-get install python3-pyqt5`
-
 * cmake 2.4 or later (for building only): [https://cmake.org/](https://cmake.org/)  
-Debian Linux: `apt-get install cmake`
+`apt-get install libusb-1.0-0-dev python3-pyqt5 cmake -y`
 
 Note that almost all distributions ship prebuilt packages of the
 above dependencies.
@@ -44,7 +39,7 @@ cmake .
 make
 </pre>
 
-(Note the required space and dot after the cmake command)
+(Note the required space and dot `.` after the cmake command)
 
 Installing
 ----------
